@@ -8,6 +8,7 @@ Modern, production-ready corporate website built with Next.js, TypeScript, Tailw
 - **TypeScript**
 - **Tailwind CSS**
 - **GSAP** (with ScrollTrigger plugin)
+- **Three.js** (for PixelBlast background effects)
 
 ## Getting Started
 
@@ -64,7 +65,8 @@ pharma/
 │       ├── Card.tsx
 │       ├── Input.tsx
 │       ├── Textarea.tsx
-│       └── Select.tsx
+│       ├── Select.tsx
+│       └── PixelBlast.tsx # Interactive background component
 ├── lib/                   # Utilities
 │   └── animations.ts      # GSAP animation helpers
 └── public/                # Static assets
@@ -75,6 +77,7 @@ pharma/
 - ✅ Fully responsive design (mobile, tablet, desktop)
 - ✅ Premium GSAP animations with ScrollTrigger
 - ✅ Modern, clean UI with brand colors
+- ✅ Interactive PixelBlast background effect
 - ✅ Contact form with validation
 - ✅ TypeScript for type safety
 - ✅ Optimized performance
@@ -88,4 +91,3 @@ pharma/
 ## License
 
 © 2024 Agencija za registracije i regulatorne usluge. All rights reserved.
-
