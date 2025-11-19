@@ -60,7 +60,7 @@ export const fadeIn = (element: string | HTMLElement, delay = 0) => {
 export const setupScrollAnimation = (
   trigger: string | HTMLElement,
   target: string | HTMLElement,
-  animation: (element: string | HTMLElement) => void
+  animation: (element: string | HTMLElement) => gsap.core.Tween | gsap.core.Timeline
 ) => {
   const ctx = gsap.context(() => {
     const anim = animation(target)
