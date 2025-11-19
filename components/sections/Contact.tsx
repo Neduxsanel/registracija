@@ -24,7 +24,7 @@ const serviceOptions = [
 
 export const Contact = () => {
   const sectionRef = useRef<HTMLElement>(null)
-  const formRef = useRef<HTMLFormElement>(null)
+  const formRef = useRef<HTMLDivElement>(null)
   const infoRef = useRef<HTMLDivElement>(null)
 
   const [formData, setFormData] = useState({
